@@ -1,20 +1,17 @@
-#ifndef BUTTON_H
-#define BUTTON_H
+#pragma once
 
 #include "ofMain.h"
 
-class Button
+class DoneButton
 {
     public:
-        Button();
-        virtual ~Button();
+        DoneButton();
+        virtual ~DoneButton();
         void init( int x, int y, int w, int h );
         void draw();
-    protected:
-    private:
+		bool isIn( int x, int y );
+
         int x, y, w, h;
         ofTrueTypeFont font;
 
 };
-
-#endif // BUTTON_H

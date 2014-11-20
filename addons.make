@@ -1,1 +1,3 @@
 ofxThermalPrinter
+ofxOpenCv
+ofxCv
