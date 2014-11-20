@@ -1,2 +1,2 @@
-Psychoanalysis
-==============
+Diagnosis
+=========
